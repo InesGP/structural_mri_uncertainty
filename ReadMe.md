@@ -1,5 +1,6 @@
 ## README
 
+* The dataset can be obtained [here](http://datasets.datalad.org/?dir=/corr/RawDataBIDS) from Datalad
 * In order to determine the numerical uncertainty between FreeSurfer, SynthMorph and FastSurfer, first build Singularity containers from the Dockerfiles provided
 * Freesurfer v7.3.1 without MCA were pulled directly from Dockerhub
 * Freesurfer v7.3.1 with MCA was built using the Dockerhub image and [this Fuzzy script](https://github.com/verificarlo/fuzzy/blob/master/docker/resources/build_fuzzy_libmath_dockerfile.sh) which copies over the Fuzzy Libmath libraries
